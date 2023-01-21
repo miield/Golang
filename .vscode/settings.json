@@ -1,0 +1,8 @@
+{
+    "[go]": {
+        "editor.autoClosingDelete": "auto",
+        "editor.autoClosingOvertype": "auto",
+        "editor.trimAutoWhitespace": true,
+        "editor.autoIndent": "none"
+    }
+}

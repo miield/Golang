@@ -16,7 +16,6 @@ func main() {
 	fmt.Printf("Variable is a type: %T \n", age) // hello there
 
 	var name string = "Oyindamola Abiola"
-
 	fmt.Println(name)
 	fmt.Printf("Variable is a type: %T \n", name)
 

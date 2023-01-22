@@ -1,18 +1,20 @@
 package main
 
+import "fmt"
+
 func main() {
 	var a int
 	a = 34
-	fmt.println("a = ", a)
+	fmt.Println("a = ", a)
 
-	// a := "Oyindamola"
-	// b := "0yindamola"
-	// c := "Oyindamola"
+	nameA := "Oyindamola"
+	nameB := "oyindamola"
+	nameC := "Oyindamola"
 
-	// result := a == b
-	// result1 := a == c
+	result := nameA == nameB
+	result1 := nameA == nameC
 
-	// fmt.Println(result)
-	// fmt.Println(result1)
+	fmt.Println(result)
+	fmt.Println(result1)
 
 }

@@ -5,7 +5,7 @@ import "fmt"
 // noVarKeyword := "hello there"// not allowed outside the method
 var noVarKeyword2 int = 90000 //this is allowed
 
-// First-letter-Capital variable are public variable. Constant cannot be changed
+// ContractName First-letter-Capital variable are public variable. Constant cannot be changed
 const ContractName string = "Golang" //line
 
 // Variables Types
@@ -52,8 +52,8 @@ func main() {
 
 }
 
-// func main2() {
-// 	var name string = "Oyindamola Abiola"
-// 	fmt.Println(name)
-// 	fmt.Printf("Variable is a type: %T \n", name)
-// }
+func main2() {
+	var name string = "Oyindamola Abiola"
+	fmt.Println(name)
+	fmt.Printf("Variable is a type: %T \n", name)
+}
